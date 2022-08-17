@@ -3,7 +3,7 @@ from tensorflow import keras
 
 def run():
     dataset = keras.preprocessing.image_dataset_from_directory(
-        './cats/', batch_size=64, image_size=(256, 256)
+        './cats/', batch_size=64, image_size=(500, 500)
     )
 
     # For demonstration, iterate over the batches yielded by the dataset.
